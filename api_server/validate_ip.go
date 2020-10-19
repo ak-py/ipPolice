@@ -31,12 +31,7 @@ func HandleValidateIP(rw http.ResponseWriter, req *http.Request) {
 	}
 
 	var reqBody core.HttpReqValidateIp
-	reqBodyBytes, readErr := ioutil.ReadAll(req.Body)
-	if readErr != nil {
-		core.Logger().Println(core.LogErrorMessage(readErr))
-		failureResponseCompose(rw, core.McBadRequest, http.StatusBadRequest)
-		return
-	}
+	reqBodyBytes, _ := ioutil.ReadAll(req.Body)
 
 	if unMarshalErr := json.Unmarshal(reqBodyBytes, &reqBody); unMarshalErr != nil {
 		core.Logger().Println(core.LogErrorMessage(unMarshalErr))

@@ -14,12 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48b92e5f-a176-446f-b002-4d65b83a7b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_server/api_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/api_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_server/ip_to_country.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/ip_to_country.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_server/validate_ip.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_server/validate_ip.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="added Swagger Documentation and changed makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Swagger Documentation and changed makefile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="618" y="362" key="#Notifications" timestamp="1603104774719">
@@ -180,25 +178,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603084707054" />
-    <state width="1750" height="320" key="GridCell.Tab.0.bottom" timestamp="1603107738862">
+    <state width="1750" height="320" key="GridCell.Tab.0.bottom" timestamp="1603111207432">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="320" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603107738862" />
+    <state width="1750" height="320" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603111207432" />
     <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314611" />
-    <state width="1750" height="320" key="GridCell.Tab.0.center" timestamp="1603107738861">
+    <state width="1750" height="320" key="GridCell.Tab.0.center" timestamp="1603111207431">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="320" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603107738861" />
+    <state width="1750" height="320" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603111207431" />
     <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314611" />
-    <state width="1750" height="320" key="GridCell.Tab.0.left" timestamp="1603107738861">
+    <state width="1750" height="320" key="GridCell.Tab.0.left" timestamp="1603111207430">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="320" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603107738861" />
+    <state width="1750" height="320" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603111207430" />
     <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314610" />
-    <state width="1750" height="320" key="GridCell.Tab.0.right" timestamp="1603107738862">
+    <state width="1750" height="320" key="GridCell.Tab.0.right" timestamp="1603111207431">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="320" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603107738862" />
+    <state width="1750" height="320" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603111207431" />
     <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314611" />
     <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1603107570592">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -224,10 +222,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603098969856" />
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1603107970478">
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2" timestamp="1603110515745">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1603107970478" />
+    <state x="496" y="287" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1603110515745" />
     <state x="672" y="391" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1603105244558">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -257,7 +255,7 @@
     <SUITE FILE_PATH="coverage/ipAddressPolice$go_test_core.out" NAME="go test core Coverage Results" MODIFIED="1603084744462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ipPolice$go_test_api_server.out" NAME="go test api_server Coverage Results" MODIFIED="1603106272834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ipAddressPolice$go_test_ipAddressPolice_core.out" NAME="go test ipAddressPolice/core Coverage Results" MODIFIED="1603082536301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/ipPolice$go_test_ipPolice.out" NAME="go test ipPolice Coverage Results" MODIFIED="1603107702738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipPolice$go_test_ipPolice.out" NAME="go test ipPolice Coverage Results" MODIFIED="1603111207390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ipAddressPolice$core_test_go.out" NAME="core_test.go Coverage Results" MODIFIED="1603084195471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
