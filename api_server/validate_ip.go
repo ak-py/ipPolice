@@ -8,6 +8,20 @@ import (
 	"strings"
 )
 
+// Handler for /validate POST
+//
+// @Summary validate - validate the ip address against given white list countries
+// @Description This API is for validating the given ip address by using geo db.
+// @ID ipPolice.validate.post
+// @Tags ipPoliceService
+// @Accept json
+// @Produce  json
+// @Param payload body core.HttpReqValidateIp true "JSON payload of the request"
+// @Success 200 {object} core.HttpResValidateIp "OK"
+// @Failure 400 {object} core.ApiStatus "Bad Request"
+// @Failure 405 {object} core.ApiStatus "Method Not Allowed"
+// @Failure 500 {object} core.ApiStatus "Internal Server Error"
+// @Router /validate [post]
 func HandleValidateIP(rw http.ResponseWriter, req *http.Request) {
 	core.Logger().Println(LogHttpReqInfo(req))
 
