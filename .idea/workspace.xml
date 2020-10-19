@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48b92e5f-a176-446f-b002-4d65b83a7b08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ipPolice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/api_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/compose.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/ip_to_country.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/ip_to_country_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/logging.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/validate_ip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_server/validate_ip_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/GeoIP2-Country-Test.mmdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/core.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/core_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/directory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/log_events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/message_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/typedefs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ipAddressPolice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/sdk/go1.15.3" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1j4wjRfqqf9FouUuvt4HpMuPbaO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/core/logger" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/test-data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.go test ipPolice">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="ipAddressPolice" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHandleValidateIP in ipPolice/api_server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$/api_server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ipPolice/api_server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHandleValidateIP\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHandleValidateIP_BadInput in ipPolice/api_server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$/api_server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ipPolice/api_server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHandleValidateIP_BadInput\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHandleValidateIP_BadInputIp in ipPolice/api_server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$/api_server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ipPolice/api_server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHandleValidateIP_BadInputIp\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHandleValidateIP_MethodNotAllowed in ipPolice/api_server" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$/api_server" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ipPolice/api_server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestHandleValidateIP_MethodNotAllowed\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="ipAddressPolice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test ipPolice" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ipPolice" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="ipAddressPolice" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.go test ipPolice" />
+        <item itemvalue="Go Test.TestHandleValidateIP_BadInputIp in ipPolice/api_server" />
+        <item itemvalue="Go Test.TestHandleValidateIP_BadInput in ipPolice/api_server" />
+        <item itemvalue="Go Test.TestHandleValidateIP_MethodNotAllowed in ipPolice/api_server" />
+        <item itemvalue="Go Test.TestHandleValidateIP in ipPolice/api_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="618" y="362" key="#Notifications" timestamp="1603104774719">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="618" y="362" key="#Notifications/0.23.1792.1017@0.23.1792.1017" timestamp="1603104774719" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603084707054">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603084707054" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1603107553707">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1603107553707" />
+    <state width="1750" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314611" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1603107553706">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1603107553706" />
+    <state width="1750" height="279" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314611" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1603107553705">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1603107553705" />
+    <state width="1750" height="279" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314610" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1603107553706">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1603107553706" />
+    <state width="1750" height="279" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1603106314611" />
+    <state x="484" y="302" key="IDE.errors.dialog" timestamp="1603104740336">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="484" y="302" key="IDE.errors.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603104740336" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1603098969856">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1603098969856" />
+    <state x="672" y="391" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1603105244558">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="672" y="405" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603100238187" />
+    <state x="672" y="391" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1603105244558" />
+    <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603100836031">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1603100836031" />
+    <state x="739" y="333" key="refactoring.ChangeSignatureDialog" timestamp="1603099692497">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="739" y="333" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603099692497" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603101219956">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1603101219956" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ipAddressPolice$config_test_go.out" NAME="config_test.go Coverage Results" MODIFIED="1603084717486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipPolice$go_test_core.out" NAME="go test core Coverage Results" MODIFIED="1603105385265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipAddressPolice$go_test_ipAddressPolice.out" NAME="go test ipAddressPolice Coverage Results" MODIFIED="1603094695596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipAddressPolice$go_test_core.out" NAME="go test core Coverage Results" MODIFIED="1603084744462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipPolice$go_test_api_server.out" NAME="go test api_server Coverage Results" MODIFIED="1603106272834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipAddressPolice$go_test_ipAddressPolice_core.out" NAME="go test ipAddressPolice/core Coverage Results" MODIFIED="1603082536301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipPolice$go_test_ipPolice.out" NAME="go test ipPolice Coverage Results" MODIFIED="1603107441512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ipAddressPolice$core_test_go.out" NAME="core_test.go Coverage Results" MODIFIED="1603084195471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
